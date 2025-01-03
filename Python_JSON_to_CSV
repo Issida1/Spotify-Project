@@ -1,3 +1,3 @@
-$json = Get-Content -Path "C:\Users\chinj\OneDrive\Documents\Spotify Project\Olivia music\Streaming_History_Audio_2015-2016_2.json" | ConvertFrom-Json
-$json | Export-Csv -Path "C:\Users\chinj\OneDrive\Documents\Spotify Project\Olivia music\Streaming_History_Audio_2015-2016_2.csv" -NoTypeInformation
+$json = Get-Content -Path "Your_host_file_path.json" | ConvertFrom-Json
+$json | Export-Csv -Path "Your_destination_file_path.csv" -NoTypeInformation
 
